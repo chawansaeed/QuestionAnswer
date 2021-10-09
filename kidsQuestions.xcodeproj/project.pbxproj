@@ -7,17 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF23229B27009E9000D7213E /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23229A27009E9000D7213E /* QuestionsTableViewController.swift */; };
+		FF23229D2700B0E200D7213E /* GuessingImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23229C2700B0E200D7213E /* GuessingImageTableViewCell.swift */; };
+		FF38BDC326FB523A00907E17 /* JsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = FF38BDC226FB523A00907E17 /* JsonFile.json */; };
+		FF42D0952711EE3E001F0830 /* GuessingImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF42D0942711EE3E001F0830 /* GuessingImageTableViewController.swift */; };
+		FF42D0972711EE6B001F0830 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF42D0962711EE6B001F0830 /* TableViewCell.swift */; };
+		FF510AF22702421D00A3F6AE /* AnsweringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF510AF12702421D00A3F6AE /* AnsweringViewController.swift */; };
+		FF5B2C0526FCA0CA0068D51D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5B2C0426FCA0CA0068D51D /* Question.swift */; };
+		FF7790D426FBAF40001D23E8 /* MainTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7790D326FBAF40001D23E8 /* MainTableTableViewController.swift */; };
+		FF7790D626FBAF54001D23E8 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7790D526FBAF54001D23E8 /* FirstTableViewCell.swift */; };
+		FF88090626FF45A800F6C58A /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88090526FF45A800F6C58A /* QuestionTableViewCell.swift */; };
 		FF940BCC26FA49C40013F1CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF940BCB26FA49C40013F1CA /* AppDelegate.swift */; };
-		FF940BCE26FA49C40013F1CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF940BCD26FA49C40013F1CA /* ViewController.swift */; };
 		FF940BD126FA49C40013F1CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF940BCF26FA49C40013F1CA /* Main.storyboard */; };
 		FF940BD326FA49C40013F1CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF940BD226FA49C40013F1CA /* Assets.xcassets */; };
 		FF940BD626FA49C40013F1CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF940BD426FA49C40013F1CA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FF940BC826FA49C40013F1CA /* IQTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF23229A27009E9000D7213E /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewController.swift; sourceTree = "<group>"; };
+		FF23229C2700B0E200D7213E /* GuessingImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessingImageTableViewCell.swift; sourceTree = "<group>"; };
+		FF38BDC226FB523A00907E17 /* JsonFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JsonFile.json; sourceTree = "<group>"; };
+		FF42D0942711EE3E001F0830 /* GuessingImageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessingImageTableViewController.swift; sourceTree = "<group>"; };
+		FF42D0962711EE6B001F0830 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FF510AF12702421D00A3F6AE /* AnsweringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnsweringViewController.swift; sourceTree = "<group>"; };
+		FF5B2C0426FCA0CA0068D51D /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		FF7790D326FBAF40001D23E8 /* MainTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableTableViewController.swift; sourceTree = "<group>"; };
+		FF7790D526FBAF54001D23E8 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		FF88090526FF45A800F6C58A /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		FF940BC826FA49C40013F1CA /* kidsQuestions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsQuestions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF940BCB26FA49C40013F1CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF940BCD26FA49C40013F1CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF940BD026FA49C40013F1CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF940BD226FA49C40013F1CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF940BD526FA49C40013F1CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,10 +53,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF42D0982711EE9D001F0830 /* GuessImage */ = {
+			isa = PBXGroup;
+			children = (
+				FF42D0942711EE3E001F0830 /* GuessingImageTableViewController.swift */,
+				FF42D0962711EE6B001F0830 /* TableViewCell.swift */,
+			);
+			name = GuessImage;
+			sourceTree = "<group>";
+		};
+		FF510AEF27023CF800A3F6AE /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF7790D326FBAF40001D23E8 /* MainTableTableViewController.swift */,
+				FF23229C2700B0E200D7213E /* GuessingImageTableViewCell.swift */,
+				FF7790D526FBAF54001D23E8 /* FirstTableViewCell.swift */,
+			);
+			name = TableViewController;
+			sourceTree = "<group>";
+		};
+		FF510AF027023D4300A3F6AE /* Questioning */ = {
+			isa = PBXGroup;
+			children = (
+				FF23229A27009E9000D7213E /* QuestionsTableViewController.swift */,
+				FF88090526FF45A800F6C58A /* QuestionTableViewCell.swift */,
+				FF510AF12702421D00A3F6AE /* AnsweringViewController.swift */,
+			);
+			name = Questioning;
+			sourceTree = "<group>";
+		};
 		FF940BBF26FA49C40013F1CA = {
 			isa = PBXGroup;
 			children = (
-				FF940BCA26FA49C40013F1CA /* IQTestApp */,
+				FF940BCA26FA49C40013F1CA /* KidsQuestions */,
 				FF940BC926FA49C40013F1CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +93,35 @@
 		FF940BC926FA49C40013F1CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF940BC826FA49C40013F1CA /* IQTestApp.app */,
+				FF940BC826FA49C40013F1CA /* kidsQuestions.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF940BCA26FA49C40013F1CA /* IQTestApp */ = {
+		FF940BCA26FA49C40013F1CA /* KidsQuestions */ = {
 			isa = PBXGroup;
 			children = (
-				FF940BCB26FA49C40013F1CA /* AppDelegate.swift */,
-				FF940BCD26FA49C40013F1CA /* ViewController.swift */,
+				FF42D0982711EE9D001F0830 /* GuessImage */,
+				FF510AF027023D4300A3F6AE /* Questioning */,
+				FF510AEF27023CF800A3F6AE /* TableViewController */,
 				FF940BCF26FA49C40013F1CA /* Main.storyboard */,
+				FF5B2C0426FCA0CA0068D51D /* Question.swift */,
+				FF38BDC226FB523A00907E17 /* JsonFile.json */,
+				FF940BCB26FA49C40013F1CA /* AppDelegate.swift */,
 				FF940BD226FA49C40013F1CA /* Assets.xcassets */,
 				FF940BD426FA49C40013F1CA /* LaunchScreen.storyboard */,
 				FF940BD726FA49C40013F1CA /* Info.plist */,
 			);
+			name = KidsQuestions;
 			path = IQTestApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF940BC726FA49C40013F1CA /* IQTestApp */ = {
+		FF940BC726FA49C40013F1CA /* kidsQuestions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF940BDA26FA49C40013F1CA /* Build configuration list for PBXNativeTarget "IQTestApp" */;
+			buildConfigurationList = FF940BDA26FA49C40013F1CA /* Build configuration list for PBXNativeTarget "kidsQuestions" */;
 			buildPhases = (
 				FF940BC426FA49C40013F1CA /* Sources */,
 				FF940BC526FA49C40013F1CA /* Frameworks */,
@@ -79,9 +131,9 @@
 			);
 			dependencies = (
 			);
-			name = IQTestApp;
+			name = kidsQuestions;
 			productName = IQTestApp;
-			productReference = FF940BC826FA49C40013F1CA /* IQTestApp.app */;
+			productReference = FF940BC826FA49C40013F1CA /* kidsQuestions.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FF940BC326FA49C40013F1CA /* Build configuration list for PBXProject "IQTestApp" */;
+			buildConfigurationList = FF940BC326FA49C40013F1CA /* Build configuration list for PBXProject "kidsQuestions" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF940BC726FA49C40013F1CA /* IQTestApp */,
+				FF940BC726FA49C40013F1CA /* kidsQuestions */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +176,7 @@
 			files = (
 				FF940BD626FA49C40013F1CA /* LaunchScreen.storyboard in Resources */,
 				FF940BD326FA49C40013F1CA /* Assets.xcassets in Resources */,
+				FF38BDC326FB523A00907E17 /* JsonFile.json in Resources */,
 				FF940BD126FA49C40013F1CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +188,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF940BCE26FA49C40013F1CA /* ViewController.swift in Sources */,
+				FF23229D2700B0E200D7213E /* GuessingImageTableViewCell.swift in Sources */,
+				FF510AF22702421D00A3F6AE /* AnsweringViewController.swift in Sources */,
 				FF940BCC26FA49C40013F1CA /* AppDelegate.swift in Sources */,
+				FF23229B27009E9000D7213E /* QuestionsTableViewController.swift in Sources */,
+				FF5B2C0526FCA0CA0068D51D /* Question.swift in Sources */,
+				FF42D0972711EE6B001F0830 /* TableViewCell.swift in Sources */,
+				FF7790D626FBAF54001D23E8 /* FirstTableViewCell.swift in Sources */,
+				FF88090626FF45A800F6C58A /* QuestionTableViewCell.swift in Sources */,
+				FF42D0952711EE3E001F0830 /* GuessingImageTableViewController.swift in Sources */,
+				FF7790D426FBAF40001D23E8 /* MainTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +313,7 @@
 				INFOPLIST_FILE = IQTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.IQTestApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = kidsQuestions;
 			};
 			name = Debug;
 		};
@@ -263,14 +324,14 @@
 				INFOPLIST_FILE = IQTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.IQTestApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = kidsQuestions;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF940BC326FA49C40013F1CA /* Build configuration list for PBXProject "IQTestApp" */ = {
+		FF940BC326FA49C40013F1CA /* Build configuration list for PBXProject "kidsQuestions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF940BD826FA49C40013F1CA /* Debug */,
@@ -279,13 +340,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF940BDA26FA49C40013F1CA /* Build configuration list for PBXNativeTarget "IQTestApp" */ = {
+		FF940BDA26FA49C40013F1CA /* Build configuration list for PBXNativeTarget "kidsQuestions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF940BDB26FA49C40013F1CA /* Debug */,
 				FF940BDC26FA49C40013F1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

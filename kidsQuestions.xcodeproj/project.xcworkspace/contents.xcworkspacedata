@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:IQTestApp.xcodeproj">
+      location = "self:/Users/chawansaeed/Develop/iOS_Apps/IQTestApp/kidsQuestions.xcodeproj">
    </FileRef>
 </Workspace>
