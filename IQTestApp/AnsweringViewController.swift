@@ -10,9 +10,12 @@ import UIKit
 
 class AnsweringViewController: UIViewController {
     
+    // Outlets:
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet var backgroungImage: UIImageView!
     @IBOutlet var revealButton: UIButton!
+    
+    // Variables:
     var question: Questions!
 
     override func viewDidLoad() {
@@ -22,6 +25,7 @@ class AnsweringViewController: UIViewController {
         title = "Have fun 😊"
     }
     
+    // Actions:
     @IBAction func answerTextField(sender: UITextField) {
         
         if sender.text == question.answer {

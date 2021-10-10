@@ -9,10 +9,11 @@
 import Foundation
 
 class Questions {
+    
+    var indexOfQuestions: String = ""
+    var listOfQuestions: String = ""
+    var indexOfImages: String = ""
     var categoryName: String = ""
     var categoryImage: String = ""
-    var listOfQuestions: String = ""
     var answer: String = ""
-    var indexOfQuestions: String = ""
-    var indexOfImages: String = ""
 }

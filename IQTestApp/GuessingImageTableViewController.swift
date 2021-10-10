@@ -10,8 +10,10 @@ import UIKit
 
 class GuessingImageTableViewController: UITableViewController {
 
+    // Variable:
     var questions = [Questions]()
 
+    // Functions:
     override func viewDidLoad() {
         super.viewDidLoad()
         readJsonFile("JsonFile")
@@ -32,10 +34,11 @@ class GuessingImageTableViewController: UITableViewController {
         return cell
     }
     
+    // Helping functions:
+    
     func readJsonFile(path: String) {
         if let filePath = NSBundle.mainBundle().pathForResource(path, ofType: "json") {
             let data = NSData(contentsOfFile: filePath)
-            //  print("value of data \(data)")
             parseJsonData(data!)
         }
     }
@@ -46,7 +49,6 @@ class GuessingImageTableViewController: UITableViewController {
             
             // Parse JSON data
             let jsonquestions = decodedData?["guessImages"] as! [AnyObject]
-            //                print("json questions: \(jsonquestions)")
             
             for jsonquestion in jsonquestions {
                 let question = Questions()
@@ -58,5 +60,12 @@ class GuessingImageTableViewController: UITableViewController {
         catch { print("Can not parse, \(error)") }
         return questions
     }
-
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showListOfImages" {
+            if let indexPath = tableView.indexPathForSelectedRow {
+            let destinationVC = segue.destinationViewController as! GuessImageViewController
+            destinationVC.question = questions[indexPath.row]
+            }
+        }
+    }
 }

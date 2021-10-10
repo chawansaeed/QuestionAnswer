@@ -2,11 +2,11 @@
 "mainView": [
              {
              "categoryName": "Question and answer",
-             "categoryImage": "apple"
+             "categoryImage": "rhombus"
              },
              {
              "categoryName": "Guessing Images",
-             "categoryImage": "swiftLogo"
+             "categoryImage": "star"
              }
     ],
     

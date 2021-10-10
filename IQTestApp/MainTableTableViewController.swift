@@ -10,6 +10,7 @@ import UIKit
 
 class MainTableTableViewController: UITableViewController {
 
+    // Variables:
     var questions = [Questions]()
     var question: Questions!
 
@@ -48,10 +49,11 @@ class MainTableTableViewController: UITableViewController {
         }
     }
     
+    // Helping functions:
+    
     func readJsonFile(path: String) {
         if let filePath = NSBundle.mainBundle().pathForResource(path, ofType: "json") {
             let data = NSData(contentsOfFile: filePath)
-          //  print("value of data \(data)")
             parseJsonData(data!)
         }
     }
@@ -61,7 +63,6 @@ class MainTableTableViewController: UITableViewController {
             
             // Parse JSON data
             let jsonquestions = decodedData?["mainView"] as! [AnyObject]
-        //    print("json questions: \(jsonquestions)")
             
             for jsonquestion in jsonquestions {
                 let question = Questions()
