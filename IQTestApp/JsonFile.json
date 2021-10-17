@@ -5,7 +5,7 @@
              "categoryImage": "rhombus"
              },
              {
-             "categoryName": "Guessing Images",
+             "categoryName": "Guessing Animals",
              "categoryImage": "star"
              }
     ],
@@ -83,24 +83,150 @@
     }
     ],
     
-"guessImages" : [
+"guessAnimals" : [
     {
-        "index":"-1-"
+        "index":"-1-",
+        "quizImage":"baby cheetah",
+                  "firstAnswer":"Wild Cat",
+                  "secondAnswer":"Lion",
+                  "thirdAnswer":"Tiger",
+                  "trueAnswer":"Baby Cheetah"
     },
     {
-        "index":"-2-"
+        "index":"-2-",
+                  "quizImage":"brown bear",
+                  "firstAnswer":"White Bear",
+                  "secondAnswer":"Monkey",
+                  "trueAnswer":"Brown bear",
+                  "thirdAnswer":"Panda"
     },
     {
-        "index":"-3-"
+        "index":"-3-",
+                  "quizImage":"colorful parrots",
+                  "trueAnswer":"Colorful Parrots",
+                  "firstAnswer":"Seagull",
+                  "secondAnswer":"Swan",
+                  "thirdAnswer":"Dove"
     },
     {
-        "index":"-4-"
+        "index":"-4-",
+                  "quizImage":"elephant",
+                  "firstAnswer":"Owl",
+                  "trueAnswer":"Elephant",
+                  "secondAnswer":"Rhino",
+                  "thirdAnswer":"Hippo"
     },
     {
-        "index":"-5-"
+        "index":"-5-",
+                  "quizImage":"flamingo",
+                  "trueAnswer":"Flamingo",
+                  "firstAnswer":"Goose",
+                  "secondAnswer":"Peacock",
+                  "thirdAnswer":"Ostrich"
+                  },
+    {
+        "index":"-6-",
+                  "quizImage":"fox",
+                  "firstAnswer":"Dog",
+                  "secondAnswer":"Llama",
+                  "thirdAnswer":"Wolf",
+                  "trueAnswer":"Fox"
     },
     {
-        "index":"-6-"
+        "index":"-7-",
+                  "quizImage":"girrafe",
+                  "firstAnswer":"Kangaroo",
+                  "secondAnswer":"Deer",
+                  "thirdAnswer":"Pig",
+                  "trueAnswer":"Girrafe"
+    },
+    {
+        "index":"-8-",
+                  "quizImage":"koalas",
+                  "trueAnswer":"Koala",
+                  "firstAnswer":"Crocodile",
+                  "secondAnswer":"Sheep",
+                  "thirdAnswer":"Hen"
+    },
+    {
+        "index":"-9-",
+                  "quizImage":"lion",
+                  "firstAnswer":"Jaguar",
+                  "secondAnswer":"Tiger",
+                  "thirdAnswer":"Cow",
+                  "trueAnswer":"Lion"
+    },
+    {
+        "index":"-10-",
+                  "quizImage":"monkey",
+                  "firstAnswer":"Girrafe",
+                  "secondAnswer":"Fly",
+                  "trueAnswer":"Monkey",
+                  "thirdAnswer":"Owl"
+    },
+    {
+        "index":"-11-",
+                  "quizImage":"penguins",
+                  "trueAnswer":"Penguin",
+                  "firstAnswer":"Snake",
+                  "secondAnswer":"Bull",
+                  "thirdAnswer":"Zebra"
+    },
+    {
+        "index":"-12-",
+                  "quizImage":"racoons",
+                  "firstAnswer":"Goat",
+                  "trueAnswer":"Racoon",
+                  "secondAnswer":"Shark",
+                  "thirdAnswer":"Whale"
+    },
+    {
+        "index":"-13-",
+                  "quizImage":"rhinos",
+                  "firstAnswer":"Leopard",
+                  "secondAnswer":"Bear",
+                  "thirdAnswer":"Bison",
+                  "trueAnswer":"Rhino"
+    },
+    {
+        "index":"-14-",
+                  "quizImage":"seagulls",
+                  "firstAnswer":"Parrot",
+                  "secondAnswer":"Stork",
+                  "trueAnswer":"Seagull",
+                  "thirdAnswer":"Sparrow"
+    },
+    {
+        "index":"-15-",
+                  "quizImage":"tiger",
+                  "trueAnswer":"Tiger",
+                  "firstAnswer":"Fox",
+                  "secondAnswer":"Monkey",
+                  "thirdAnswer":"Elephant"
+    },
+    {
+        "index":"-16-",
+                  "quizImage":"white bear",
+                  "firstAnswer":"Panda",
+                  "secondAnswer":"Rabbit",
+                  "trueAnswer":"White Bear",
+                  "thirdAnswer":"Sloth"
+    },
+    {
+        "index":"-17-",
+                  "quizImage":"white tiger",
+                  "firstAnswer":"Black Tiger",
+                  "secondAnswer":"Leopard",
+                  "thirdAnswer":"Lion",
+                  "trueAnswer":"White Tiger"
+    },
+    {
+        "index":"-18-",
+                  "quizImage":"wolf",
+                  "trueAnswer":"Wolf",
+                  "firstAnswer":"Fox",
+                  "secondAnswer":"Lobster",
+                  "thirdAnswer":"Snake"
     }
-    ]
+  ]
 }

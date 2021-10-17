@@ -8,7 +8,7 @@
 
 import UIKit
 
-class QuestionTableViewCell: UITableViewCell {
+class QuestionCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet var questionList: UILabel!
 }

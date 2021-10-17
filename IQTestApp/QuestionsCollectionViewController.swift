@@ -8,7 +8,7 @@
 
 import UIKit
 
-class QuestionsTableViewController: UITableViewController {
+class QuestionsCollectionViewController: UICollectionViewController {
     
     // Variables
     var questions = [Questions]()
@@ -19,19 +19,21 @@ class QuestionsTableViewController: UITableViewController {
     }
     
     // Functions
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
+
     }
-    
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+
+    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return questions.count
+
     }
-    
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("questionsCell", forIndexPath: indexPath) as! QuestionTableViewCell
+    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("questionsCell", forIndexPath: indexPath) as! QuestionCollectionViewCell
         cell.questionList.text = questions[indexPath.row].indexOfQuestions
         return cell
     }
+    
     
     // Helping functions:
     func readJsonFile(path: String) {
@@ -53,7 +55,6 @@ class QuestionsTableViewController: UITableViewController {
                 question.indexOfQuestions = jsonquestion["index"] as! String
                 question.listOfQuestions = jsonquestion["question"] as! String
                 question.answer = jsonquestion["answer"] as! String
-
                 questions.append(question)
             }
             return questions
@@ -64,9 +65,9 @@ class QuestionsTableViewController: UITableViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "answerTheQuestions" {
-            if let indexPath = tableView.indexPathForSelectedRow {
+            if let indexPath = collectionView?.indexPathsForSelectedItems() {
             let destinationController = segue.destinationViewController as! AnsweringViewController
-            destinationController.question = questions[indexPath.row]
+            destinationController.question = questions[indexPath[0].row]
             }
         }
     }

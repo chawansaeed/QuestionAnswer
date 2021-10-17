@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GuessingImageTableViewCell: UITableViewCell {
+class GuessingAnimalTableViewCell: UITableViewCell {
 
     @IBOutlet var shapeImage: UIImageView!
     @IBOutlet var titleLabel: UILabel!

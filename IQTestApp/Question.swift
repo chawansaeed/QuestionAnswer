@@ -11,9 +11,15 @@ import Foundation
 class Questions {
     
     var indexOfQuestions: String = ""
+    var indexOfAnimals: String = ""
     var listOfQuestions: String = ""
-    var indexOfImages: String = ""
     var categoryName: String = ""
     var categoryImage: String = ""
+    var animalImages: String = ""
+    var secondAnswer: String = ""
+    var thirdAnswer: String = ""
+    var firstAnswer: String = ""
+    var trueAnswer: String = ""
     var answer: String = ""
+
 }

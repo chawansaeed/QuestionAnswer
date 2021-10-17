@@ -21,7 +21,7 @@ class AnsweringViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         questionLabel.text = question.listOfQuestions
-        backgroungImage.image = UIImage(named: "marble")
+//        backgroungImage.image = UIImage(named: "marble")
         title = "Have fun 😊"
     }
     
@@ -42,7 +42,7 @@ class AnsweringViewController: UIViewController {
         }
     }
     
-    @IBAction func checkingAnswer(sender: UIButton) {
+    @IBAction func revealingAnswer(sender: UIButton) {
         revealButton.setTitle(question.answer, forState: .Normal)
     }
 }

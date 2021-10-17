@@ -42,7 +42,7 @@ class MainTableTableViewController: UITableViewController {
             return cell
             
         } else {
-            let cell = tableView.dequeueReusableCellWithIdentifier("guessImages", forIndexPath: indexPath) as! GuessingImageTableViewCell
+            let cell = tableView.dequeueReusableCellWithIdentifier("guessAnimals", forIndexPath: indexPath) as! GuessingAnimalTableViewCell
             cell.shapeImage.image = UIImage(named: questions[indexPath.row].categoryImage)
             cell.titleLabel.text = questions[indexPath.row].categoryName
             return cell
@@ -78,7 +78,7 @@ class MainTableTableViewController: UITableViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showListOfQuestions" {
-            let destinationViewController = segue.destinationViewController as! QuestionsTableViewController
+            let destinationViewController = segue.destinationViewController as! QuestionsCollectionViewController
             destinationViewController.questions = questions
         }
     }

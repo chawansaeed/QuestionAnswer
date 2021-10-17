@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF23229B27009E9000D7213E /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23229A27009E9000D7213E /* QuestionsTableViewController.swift */; };
-		FF23229D2700B0E200D7213E /* GuessingImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23229C2700B0E200D7213E /* GuessingImageTableViewCell.swift */; };
+		FF23229B27009E9000D7213E /* QuestionsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23229A27009E9000D7213E /* QuestionsCollectionViewController.swift */; };
+		FF23229D2700B0E200D7213E /* GuessingAnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF23229C2700B0E200D7213E /* GuessingAnimalTableViewCell.swift */; };
 		FF38BDC326FB523A00907E17 /* JsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = FF38BDC226FB523A00907E17 /* JsonFile.json */; };
-		FF42D0952711EE3E001F0830 /* GuessingImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF42D0942711EE3E001F0830 /* GuessingImageTableViewController.swift */; };
-		FF42D0972711EE6B001F0830 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF42D0962711EE6B001F0830 /* TableViewCell.swift */; };
+		FF42D0952711EE3E001F0830 /* GuessingAnimalsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF42D0942711EE3E001F0830 /* GuessingAnimalsCollectionViewController.swift */; };
+		FF42D0972711EE6B001F0830 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF42D0962711EE6B001F0830 /* CollectionViewCell.swift */; };
 		FF510AF22702421D00A3F6AE /* AnsweringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF510AF12702421D00A3F6AE /* AnsweringViewController.swift */; };
 		FF5B2C0526FCA0CA0068D51D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5B2C0426FCA0CA0068D51D /* Question.swift */; };
 		FF7790D426FBAF40001D23E8 /* MainTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7790D326FBAF40001D23E8 /* MainTableTableViewController.swift */; };
 		FF7790D626FBAF54001D23E8 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7790D526FBAF54001D23E8 /* FirstTableViewCell.swift */; };
-		FF88090626FF45A800F6C58A /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88090526FF45A800F6C58A /* QuestionTableViewCell.swift */; };
+		FF88090626FF45A800F6C58A /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88090526FF45A800F6C58A /* QuestionCollectionViewCell.swift */; };
 		FF940BCC26FA49C40013F1CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF940BCB26FA49C40013F1CA /* AppDelegate.swift */; };
 		FF940BD126FA49C40013F1CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF940BCF26FA49C40013F1CA /* Main.storyboard */; };
 		FF940BD326FA49C40013F1CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF940BD226FA49C40013F1CA /* Assets.xcassets */; };
 		FF940BD626FA49C40013F1CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF940BD426FA49C40013F1CA /* LaunchScreen.storyboard */; };
-		FFE014202713291500ED17C7 /* GuessImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE0141F2713291500ED17C7 /* GuessImageViewController.swift */; };
+		FFE014202713291500ED17C7 /* GuessAnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE0141F2713291500ED17C7 /* GuessAnimalsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FF23229A27009E9000D7213E /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewController.swift; sourceTree = "<group>"; };
-		FF23229C2700B0E200D7213E /* GuessingImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessingImageTableViewCell.swift; sourceTree = "<group>"; };
+		FF23229A27009E9000D7213E /* QuestionsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsCollectionViewController.swift; sourceTree = "<group>"; };
+		FF23229C2700B0E200D7213E /* GuessingAnimalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessingAnimalTableViewCell.swift; sourceTree = "<group>"; };
 		FF38BDC226FB523A00907E17 /* JsonFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JsonFile.json; sourceTree = "<group>"; };
-		FF42D0942711EE3E001F0830 /* GuessingImageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessingImageTableViewController.swift; sourceTree = "<group>"; };
-		FF42D0962711EE6B001F0830 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FF42D0942711EE3E001F0830 /* GuessingAnimalsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessingAnimalsCollectionViewController.swift; sourceTree = "<group>"; };
+		FF42D0962711EE6B001F0830 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		FF510AF12702421D00A3F6AE /* AnsweringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnsweringViewController.swift; sourceTree = "<group>"; };
 		FF5B2C0426FCA0CA0068D51D /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		FF7790D326FBAF40001D23E8 /* MainTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableTableViewController.swift; sourceTree = "<group>"; };
 		FF7790D526FBAF54001D23E8 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
-		FF88090526FF45A800F6C58A /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		FF88090526FF45A800F6C58A /* QuestionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCollectionViewCell.swift; sourceTree = "<group>"; };
 		FF940BC826FA49C40013F1CA /* kidsQuestions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsQuestions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF940BCB26FA49C40013F1CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF940BD026FA49C40013F1CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF940BD226FA49C40013F1CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF940BD526FA49C40013F1CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF940BD726FA49C40013F1CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFE0141F2713291500ED17C7 /* GuessImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuessImageViewController.swift; path = ../GuessImageViewController.swift; sourceTree = "<group>"; };
+		FFE0141F2713291500ED17C7 /* GuessAnimalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuessAnimalsViewController.swift; path = ../GuessAnimalsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,21 +55,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FF42D0982711EE9D001F0830 /* GuessImage */ = {
+		FF42D0982711EE9D001F0830 /* GuessAnimalsByImage */ = {
 			isa = PBXGroup;
 			children = (
-				FF42D0942711EE3E001F0830 /* GuessingImageTableViewController.swift */,
-				FF42D0962711EE6B001F0830 /* TableViewCell.swift */,
-				FFE0141F2713291500ED17C7 /* GuessImageViewController.swift */,
+				FF42D0942711EE3E001F0830 /* GuessingAnimalsCollectionViewController.swift */,
+				FF42D0962711EE6B001F0830 /* CollectionViewCell.swift */,
+				FFE0141F2713291500ED17C7 /* GuessAnimalsViewController.swift */,
 			);
-			name = GuessImage;
+			name = GuessAnimalsByImage;
 			sourceTree = "<group>";
 		};
 		FF510AEF27023CF800A3F6AE /* First view Files */ = {
 			isa = PBXGroup;
 			children = (
 				FF7790D326FBAF40001D23E8 /* MainTableTableViewController.swift */,
-				FF23229C2700B0E200D7213E /* GuessingImageTableViewCell.swift */,
+				FF23229C2700B0E200D7213E /* GuessingAnimalTableViewCell.swift */,
 				FF7790D526FBAF54001D23E8 /* FirstTableViewCell.swift */,
 			);
 			name = "First view Files";
@@ -78,8 +78,8 @@
 		FF510AF027023D4300A3F6AE /* Questioning */ = {
 			isa = PBXGroup;
 			children = (
-				FF23229A27009E9000D7213E /* QuestionsTableViewController.swift */,
-				FF88090526FF45A800F6C58A /* QuestionTableViewCell.swift */,
+				FF23229A27009E9000D7213E /* QuestionsCollectionViewController.swift */,
+				FF88090526FF45A800F6C58A /* QuestionCollectionViewCell.swift */,
 				FF510AF12702421D00A3F6AE /* AnsweringViewController.swift */,
 			);
 			name = Questioning;
@@ -106,7 +106,7 @@
 			children = (
 				FFE0141E2713264D00ED17C7 /* UI  */,
 				FFE0141C2713260E00ED17C7 /* Model */,
-				FF42D0982711EE9D001F0830 /* GuessImage */,
+				FF42D0982711EE9D001F0830 /* GuessAnimalsByImage */,
 				FF510AF027023D4300A3F6AE /* Questioning */,
 				FF510AEF27023CF800A3F6AE /* First view Files */,
 				FF940BCB26FA49C40013F1CA /* AppDelegate.swift */,
@@ -215,16 +215,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF23229D2700B0E200D7213E /* GuessingImageTableViewCell.swift in Sources */,
+				FF23229D2700B0E200D7213E /* GuessingAnimalTableViewCell.swift in Sources */,
 				FF510AF22702421D00A3F6AE /* AnsweringViewController.swift in Sources */,
 				FF940BCC26FA49C40013F1CA /* AppDelegate.swift in Sources */,
-				FF23229B27009E9000D7213E /* QuestionsTableViewController.swift in Sources */,
+				FF23229B27009E9000D7213E /* QuestionsCollectionViewController.swift in Sources */,
 				FF5B2C0526FCA0CA0068D51D /* Question.swift in Sources */,
-				FF42D0972711EE6B001F0830 /* TableViewCell.swift in Sources */,
-				FFE014202713291500ED17C7 /* GuessImageViewController.swift in Sources */,
+				FF42D0972711EE6B001F0830 /* CollectionViewCell.swift in Sources */,
+				FFE014202713291500ED17C7 /* GuessAnimalsViewController.swift in Sources */,
 				FF7790D626FBAF54001D23E8 /* FirstTableViewCell.swift in Sources */,
-				FF88090626FF45A800F6C58A /* QuestionTableViewCell.swift in Sources */,
-				FF42D0952711EE3E001F0830 /* GuessingImageTableViewController.swift in Sources */,
+				FF88090626FF45A800F6C58A /* QuestionCollectionViewCell.swift in Sources */,
+				FF42D0952711EE3E001F0830 /* GuessingAnimalsCollectionViewController.swift in Sources */,
 				FF7790D426FBAF40001D23E8 /* MainTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
